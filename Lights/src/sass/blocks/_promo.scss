@@ -1,0 +1,40 @@
+.promo {
+    min-height: 521px;
+    background: url('../img/bg-top.png') right (center/contain) no-repeat;
+    &__title {
+        max-width: 667px;
+        margin-bottom: 33px;
+    }
+    &__subtitle {
+        max-width: 324px;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 400;
+        color: #616161;
+        margin-bottom: 42px;
+    }
+    &__form {
+        font-size: 0;
+        width: 391px;
+        input {
+            width: 50%;
+            background-color: #f8f8f8;
+            border: 1.0px solid #e1e1e1;
+            padding: 10px 32px;
+            font-size: 18px;
+            line-height: 31px;
+            font-weight: 500;
+            color: #141419;
+        }
+        .button {
+            width: 50%;
+            background-color: #fb973b;
+            border: 1.0px solid #fb973b;
+            font-size: 18px;
+            line-height: 31px;
+            font-weight: 500;
+            color: #ffffff;
+            padding: 10px 53px;
+        }
+    }
+}
